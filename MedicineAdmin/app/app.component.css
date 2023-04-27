@@ -1,0 +1,13 @@
+.flex-column{
+    background-color: lightpink;
+}
+
+.container{
+    margin-left: -20px;
+    padding-left: 30px;
+    margin-right: -20px;
+}
+
+.row{
+    text-align: center;
+}

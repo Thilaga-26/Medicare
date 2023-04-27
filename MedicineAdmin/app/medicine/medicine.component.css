@@ -1,0 +1,16 @@
+.h1{
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.submit-form{
+    color: red;
+}
+
+body{
+    background-color: lightskyblue;
+    max-width: 100%;
+    min-height: 800px;
+    height: auto !important;
+    height: 400px;
+}

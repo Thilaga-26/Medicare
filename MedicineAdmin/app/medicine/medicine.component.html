@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+<body>
+    
+        <div class="h1">
+            <h1>Insert the New Medicine</h1>
+        </div>
+
+            <div style="width: 500px; margin:auto;">
+            <div class="submit-form">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" id="name" required [(ngModel)]="medicine.name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input class="form-control" id="description" required [(ngModel)]="medicine.description" name="description">
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category</label>
+                <input class="form-control" id="category" required [(ngModel)]="medicine.category" name="category">
+            </div>
+
+            <div class="form-group">
+                <label for="mfg_date">Mfg_Date</label>
+                <input class="form-control" id="mfg_date" required [(ngModel)]="medicine.mfg_date" name="mfg_date">
+            </div>
+
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input class="form-control" id="price" required [(ngModel)]="medicine.price" name="price">
+            </div>
+            
+            <div class="form-group">
+                <label for="active">Active</label>
+                <input class="form-control" id="active" required [(ngModel)]="medicine.active" name="active">
+            </div>
+
+            <button (click)="insertnow()" class="btn btn-outline-secondary">Create</button>
+            </div>
+            </div>
+
+            </body>
+            </html>
+            
+             
