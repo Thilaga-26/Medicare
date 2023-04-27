@@ -1,0 +1,72 @@
+body{
+    background-color: peachpuff;
+    max-width: 100%;
+    min-height: 900px;
+    height:auto !important;
+    height: 400px;
+}
+
+.searchbar{
+    width: 80%;
+    height: 20px;
+    text-indent: 15px;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    color: red;
+}
+
+.btn-outline-success{
+    color: darkred;
+    border-color: darkred;
+}
+
+.btn-outline-success:hover{
+    color: darkmagenta;
+}
+
+form-control me-2{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: purple;
+    color: purple;
+    border: purple;
+}
+.images{
+    padding-top: 5px;
+    padding-left: 2px;
+    height: 50px;
+    padding: 20px;
+    width: 600%;
+}
+
+.image1{
+    padding-top: 20px;
+    height:300px;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.image2{
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.image3,.image4{
+padding-top: 20px;
+height: 300px;
+width: 300px;
+padding-right: 20px;
+}
+.image5{
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
+}

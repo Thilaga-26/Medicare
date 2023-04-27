@@ -1,0 +1,38 @@
+.landing{
+    background-color: papayawhip ;
+}
+
+.header a{
+    min-width: 240px;
+    flex:1;
+    display:flex;
+    align-items: center;
+    color: green;
+}
+h2{
+    color: darkred;
+}
+.header{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    padding: .5em;
+    row-gap: .5em;
+    align-items: center;
+}
+.header a i{
+    font-size: larger;
+    width: 40px;
+    height:55px;
+    position: relative;
+    top: 15px;
+    margin-right: 2px;
+}
+.header a:hover{
+    color: purple;
+}
+body{
+    color: yellow;
+}

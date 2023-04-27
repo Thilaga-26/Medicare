@@ -1,0 +1,23 @@
+.form1,.form2{
+    padding-top: 20px;
+}
+
+.button1,.button2{
+    text-align: center;
+    margin: auto;
+    width: 40px;
+    padding-top: 20px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 20px;
+}
+
+body{
+    background-color: lightcyan;
+    max-width: 100%;
+    min-height: 500px;
+    height: auto !important;
+    height: 400px;
+}

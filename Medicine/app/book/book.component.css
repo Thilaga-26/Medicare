@@ -1,0 +1,16 @@
+body{
+    background-color: lightgoldenrodyellow;
+    max-width: 100%;
+    min-height: 700px;
+    height: auto !important;
+    height: 600px;
+}
+
+.img-thumbnail{
+    background-color: grey;
+    max-width: 60%;
+    min-height: 700px;
+    height: auto !important;
+    height: 1000px;
+    border-color: black;
+}
